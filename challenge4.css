@@ -1,0 +1,93 @@
+body{
+  margin: 0;
+  background-color:rgb(84, 112, 74) ;
+}
+#wrap{
+  border: 1px solid;
+  max-width: 900px;
+  margin: 0 auto;
+  height: 100%;
+  
+}
+#header{
+  background-color:rgb(181, 182, 125) ;
+  text-align: right;
+  padding-right: 20px;
+  padding: 10px 20px 20px 0px;
+  margin: 0;
+}
+#nav{
+  background-color:rgb(104, 157, 89) ;
+  margin: 0;
+  border-top: 1px solid rgb(104, 157, 89);
+  border-bottom: 3px dashed rgb(255, 255, 255) ;
+}
+#nav > ul > li{
+  display: inline-block;
+  list-style: none;  
+}
+#nav > ul > li > a:hover{
+  color: rgb(77, 39, 70);  
+}
+
+        /*CONTENT SIDE*/
+#content{
+  display: inline-block;
+  width: 75%;
+  background-color: rgb(115, 143, 105);
+  margin: 0px;
+  min-height: 418px;
+}
+#content > h1{
+  padding-left: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  
+}
+#content > p{
+  margin-left: 16px;
+  color: rgb(100, 98, 98);
+}
+#content ul li{
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(56, 55, 55);
+}
+.poem :nth-child(1), :nth-child(6), :nth-child(12){
+  margin-left: 30px;
+}
+.poem > li :nth-child(2){
+ margin-left: 0px;
+}
+.poem > li :nth-child(7), :nth-child(10), :nth-child(13){
+  margin-left: 15px;
+}
+.poem :nth-child(4){
+  margin-left: 15px;
+}
+.poem :nth-child(5){
+  margin-left: 22px;
+}
+.poem :nth-child(3), :nth-child(8), :nth-child(11){
+  margin-left: 10px;
+}
+.poem :nth-child(9), :nth-child(14){
+  margin-left: 35px;
+}
+#nav > ul > li > a{
+  text-decoration: none;
+  padding-right: 10px;
+}
+        /*SIDEBAR SIDE*/
+#sidebar{  
+  width: 25%;
+  height: 418px;
+  float: right;
+  background-color:rgb(181, 182, 125) ;
+  border:1px solid rgb(181, 182, 125);
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;  
+  font-size: 15px;
+  color: rgb(56, 55, 55);
+}

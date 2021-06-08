@@ -1,0 +1,98 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  background: whitesmoke;
+  display: grid;
+  min-height: 200px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-areas: "photo experiences experiences"
+                       "profile experiences experiences"
+                       "contact educations educations"
+                       "skills language computer"
+                       "personal personal personal";
+}
+
+.photo{
+  grid-area: photo;
+  background-color: rgb(242, 242, 242);  
+}
+.cvphoto{
+  border-radius: 50%;
+  width: 200px;
+  height: 250px;
+  margin: 10px 10px 10px 45px;
+}
+.profile{
+  grid-area: profile;
+  background-color: rgb(242, 242, 242); 
+}
+.contact{
+  grid-area: contact;
+  background-color: rgb(242, 242, 242); 
+}
+tr > td{
+ margin: 5px;
+ padding: 5px;
+}
+.skills{
+  grid-area: skills;
+  background-color: rgb(242, 242, 242); 
+}
+h4{
+  text-align: justify;
+  margin: 5px 5px 5px 10px;
+}
+.experiences{
+  grid-area: experiences;
+  
+}
+.educations{
+  grid-area: educations;
+  
+}
+.educations > ul{
+  text-align: center;
+}
+
+ul > li{
+  list-style: none;
+  margin: 5px;
+ 
+}
+li > p{
+  text-align: center;
+}
+.language{
+  grid-area: language;  
+  
+}
+.computer{
+  grid-area: computer;
+  
+}
+.personal-interest{
+  grid-area: personal;
+  
+}
+h1{
+  color: aliceblue;
+  background-color: rgb(91, 155, 213);
+  margin: 5px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h3{
+  color: rgb(91, 155, 213);
+  margin: 15px 5px 15px 5px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+p{
+  text-align: justify;
+  padding: 3px;
+  margin: 5px;
+}
